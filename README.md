@@ -32,9 +32,10 @@ evaluate_model()
 ```
 
 ###Model Evaluation:
-**Currently the model is based upon the formula below:  **
+Currently the model is based upon the formula below:  
 ![Model Formula](https://raw.githubusercontent.com/shakedlokits/ChatNLP/master/equation.png)
-**Can be visualized upon the VADER testing data as such:  **
+-----------------------------------
+Can be visualized upon the VADER testing data as such:  
 ![Model Visualization](https://raw.githubusercontent.com/shakedlokits/ChatNLP/master/model_evaluation.png)
 > "Model visualization based on sentiment, ranking and alpha trade-off"
 
