@@ -1,12 +1,12 @@
 # ChatNLP
-###### Chat sentiment evaluation using VADER model and ranking ranking
+Chat sentiment evaluation using VADER model and popularity ranking
 
 A python module that takes a list of chat messages and a chat popularity ranking  
 and evaluates a chat sentiment ranking based on the VADER nlp model
 
-##### Please feel free to contact me for help, i'd be glad to support (:
+##### Please feel free to contact me for help, I'd be glad to support (:
 
-###Requirements:
+### Requirements
 * numpy
 * scipy
 * nltk
@@ -14,7 +14,7 @@ and evaluates a chat sentiment ranking based on the VADER nlp model
 * textblob
 * urllib2
 
-###Usage:
+### Usage
 To evaluate chat run:
 ```python
 from chat_evaluator import evaluate_chat
@@ -31,15 +31,15 @@ from chat_evaluator import evaluate_model
 evaluate_model()
 ```
 
-###Model Evaluation:
+### Model Evaluation
 Currently the model is based upon the formula below:  
 ![Model Formula](https://raw.githubusercontent.com/shakedlokits/ChatNLP/master/equation.png)
 -----------------------------------
 Can be visualized upon the VADER testing data as such:  
 ![Model Visualization](https://raw.githubusercontent.com/shakedlokits/ChatNLP/master/model_evaluation.png)
-> "Model visualization based on sentiment, ranking and alpha trade-off"
+> Model visualization based on sentiment, ranking and alpha trade-off
 
-###MIT License
+### MIT License
 
 Copyright (c) 2016 Shaked Lokits
 
